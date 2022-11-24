@@ -1,0 +1,170 @@
+/* intégration des polices de caractères */
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url("../font/Josefin/JosefinSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Titilium Sans";
+    src: url("../font/TitilliumWeb-BoldItalic.ttf");
+}
+
+/* Style commun a toute la page */
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+li {
+    margin-bottom: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+    background-image: url(../images/background/3840x2160_Wrathion.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll !important;
+}
+
+/* Style communs des boutons  */
+.header__navbar,
+.who-continue__link {
+    background-color: hsla(39, 100%, 50%, 1);
+    border-radius: 5px !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, .75), inset 0 -5px rgba(0, 0, 0, .26);
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, .75), inset 0 -5px rgba(0, 0, 0, .26);
+    box-shadow: 0 2px 8px rgb(0 0 0 / 75%), inset 0 -5px rgb(0 0 0 / 26%);
+}
+
+/* Header */
+
+/* La partie logo du Header */
+.logo-jor {
+    width: 10%;
+    margin-left: 12%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+/* La partie navigation du Header */
+.header__navbar {
+    height: 70px;
+    width: 80%;
+    margin: auto;
+    -webkit-transition: linear .3s;
+    -moz-transition: linear .3s;
+    -ms-transition: linear .3s;
+    -o-transition: linear .3s;
+    transition: linear .3s;
+
+}
+
+.navbar_main-menu {
+    list-style: none;
+    position: relative;
+    width: 100%;
+    margin-left: 5px;
+    z-index: 10;
+}
+
+.nav_main-menu--item {
+    padding: 23px 0px 22px 0px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.menu-item_link {
+    color: white;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+
+/* La section du haut de la page */
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.void-left {
+    width: 75%;
+}
+
+.first-title-right {
+    position: absolute;
+    top: 153px;
+    left: 975.5px;
+    margin: 0px;
+    z-index: auto;
+    width: auto;
+    height: auto;
+    padding: 0px;
+    border-width: 0px;
+    font-size: 36px;
+    letter-spacing: 0px;
+}
+
+.who-title1 {
+    margin: 0;
+    font-size: 63px;
+    line-height: 63px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.who-title2 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    color: hsla(39, 100%, 50%, 1);
+    margin: 0;
+    line-height: 40px;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.who-text {
+    width: 70%;
+    font-size: 16px;
+    text-transform: none;
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    opacity: 1;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.who-continue__link {
+    font-family: "Titilium Sans", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    font-size: 17px !important;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 18px 41px 20px 41px !important;
+    color: #fff;
+    margin-top: 10px;
+}
