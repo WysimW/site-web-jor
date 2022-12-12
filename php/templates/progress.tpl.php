@@ -1,6 +1,6 @@
 <main>
     <div class="container progress-container">
-        <div class="card">
+        <div class="card-progress">
             <img class="raid-img" src="../images/raids/caveau.jpg" alt="Avatar">
             <div class="container">
                 <h4><b>Caveau des Incarnations</b></h4>
