@@ -23,23 +23,14 @@
                 <div class="info-jor">Guilde <span class="info-jor--letter">J</span>or <span class="info-jor--letter">
                         K</span>haz <span class="info-jor--letter">M</span>odan</div>
             </div>
-            <div class="header__navbar">
+            <div class="header__navbar bg-theme-yellow bg-theme">
                 <ul class="navbar_main-menu">
-                    <a class="menu-item_link" href="#">
+                    <?php foreach($navs as $nav) :?>
+                    <a class="menu-item_link" href="./<?= $nav['url'] ?>.php">
                         <li class="nav_main-menu--item">
-                            Home</li>
+                        <?= $nav['name'] ?></li>
                     </a>
-                    <a class="menu-item_link" href="#">
-                        <li class="nav_main-menu--item">
-                            Qui sommes nous ?</li>
-                    </a>
-                    <a class="menu-item_link" href="#">
-                        <li class="nav_main-menu--item">
-                            Galerie</li>
-                    </a><a class="menu-item_link" href="#">
-                        <li class="nav_main-menu--item">
-                            Progress</li>
-                    </a>
+                    <?php endforeach ?>
                 </ul>
                 <div class="nav__discord">
                     <a id="discord--link" href="#"> <img class="discord--img"

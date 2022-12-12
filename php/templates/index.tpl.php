@@ -8,6 +8,6 @@
                 recusandae illum
                 nobis! Nemo reprehenderit sapiente accusamus tempora doloribus in officia? Blanditiis, iusto vel quidem
                 reiciendis libero odio?</p>
-            <div class="who-continue"><a class="who-continue__link" href="#">Continuer</a></div>
+            <div class="who-continue"><a class="who-continue__link bg-theme bg-theme-yellow"" href="#">Continuer</a></div>
         </div>
     </section>

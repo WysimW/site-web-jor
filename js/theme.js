@@ -28,6 +28,7 @@ const theme = {
         console.log(colorThemeClass);
         theme.changeColorTheme(colorThemeClass);
         theme.saveColorThemeToLocalStorage(colorThemeClass);
+        console.log(colorElements);
     },
     listenEvents: function () {
         const themeButtonsElements = document.querySelectorAll('.theme-circle');
